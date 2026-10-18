@@ -14,9 +14,10 @@ import { PhotoCard } from './PhotoCard';
 interface HeroProps {
   onOpenResume: () => void;
   onHireMe: () => void;
+  onOpenResumePage?: () => void;
 }
 
-export const Hero: React.FC<HeroProps> = ({ onOpenResume, onHireMe }) => {
+export const Hero: React.FC<HeroProps> = ({ onOpenResume, onHireMe, onOpenResumePage }) => {
   return (
     <section className="relative min-h-[92vh] flex flex-col justify-center pt-28 pb-16 overflow-hidden">
       {/* Ambient background glows */}
@@ -120,8 +121,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume, onHireMe }) => {
               </a>
 
               <button
-                onClick={onOpenResume}
-                title="Resume"
+                onClick={onOpenResumePage || onOpenResume}
+                title="View Resume Page with Photo"
                 className="w-10 h-10 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-teal-500/60 text-slate-400 hover:text-teal-300 flex items-center justify-center transition-all hover:-translate-y-0.5 shadow-md"
               >
                 <FileText className="w-4 h-4" />

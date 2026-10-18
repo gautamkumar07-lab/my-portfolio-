@@ -365,3 +365,111 @@ export const FALLBACK_REPOS: GithubRepo[] = [
     created_at: '2026-09-01T09:00:00Z',
   },
 ];
+
+export const RESUME_DATA = {
+  fullName: 'Gautam Kumar',
+  title: 'Java Developer · AI Developer · Future Software Engineer',
+  email: 'gautamkumar543796@gmail.com',
+  phone: '+91 92628 38416',
+  phoneRaw: '9262838416',
+  github: 'github.com/gautamkumar07-lab',
+  githubUrl: 'https://github.com/gautamkumar07-lab',
+  linkedin: 'linkedin.com/in/gautam-kumar',
+  linkedinUrl: 'https://www.linkedin.com/in/gautam-kumar',
+  location: 'Patna & Punjab, India',
+  contact: {
+    email: 'gautamkumar543796@gmail.com',
+    phone: '+91 92628 38416',
+    github: 'github.com/gautamkumar07-lab',
+    githubUrl: 'https://github.com/gautamkumar07-lab',
+    linkedin: 'linkedin.com/in/gautam-kumar',
+    linkedinUrl: 'https://www.linkedin.com/in/gautam-kumar',
+    location: 'Patna & Punjab, India',
+  },
+  objective: 'Aspiring Software Development Engineer (SDE) and Computer Science student with a strong command of Java, Object-Oriented Programming, and Spring Boot. Actively engineering full-stack web applications and AI-driven solutions. Seeking opportunities to apply strong analytical capabilities to solve real-world problems.',
+  education: {
+    degree: 'Bachelor of Technology in Computer Science & Engineering',
+    period: '2025 – 2029 (Pursuing)',
+    status: 'Pursuing',
+    institution: 'Punjab, India',
+    coursework: [
+      'Data Structures & Algorithms',
+      'Object-Oriented Analysis & Design',
+      'Database Management Systems (DBMS)',
+      'Operating Systems',
+      'Computer Networks',
+      'Software Engineering',
+    ],
+    courseworkText: 'Relevant Coursework: Data Structures & Algorithms, Object-Oriented Analysis & Design, Database Management Systems (DBMS), Operating Systems, Computer Networks, Software Engineering.',
+  },
+  technicalSkills: [
+    {
+      category: 'Languages & Core',
+      skills: 'Java, JavaScript (ES6+), C++, HTML5, CSS3, SQL',
+      items: ['Java', 'JavaScript (ES6+)', 'C++', 'HTML5', 'CSS3', 'SQL'],
+    },
+    {
+      category: 'Frameworks & Libraries',
+      skills: 'Spring Boot, React, Tailwind CSS, Hibernate / JPA',
+      items: ['Spring Boot', 'React', 'Tailwind CSS', 'Hibernate / JPA'],
+    },
+    {
+      category: 'AI & Prompt Engineering',
+      skills: 'LLM Integration, Prompt Engineering, Agentic Workflows',
+      items: ['LLM Integration', 'Prompt Engineering', 'Agentic Workflows'],
+    },
+    {
+      category: 'Databases & Tools',
+      skills: 'MySQL, Firebase Firestore, Git, GitHub, RESTful APIs',
+      items: ['MySQL', 'Firebase Firestore', 'Git', 'GitHub', 'RESTful APIs'],
+    },
+  ],
+  skills: [
+    {
+      category: 'Languages & Core',
+      skills: 'Java, JavaScript (ES6+), C++, HTML5, CSS3, SQL',
+      items: ['Java', 'JavaScript (ES6+)', 'C++', 'HTML5', 'CSS3', 'SQL'],
+    },
+    {
+      category: 'Frameworks & Libraries',
+      skills: 'Spring Boot, React, Tailwind CSS, Hibernate / JPA',
+      items: ['Spring Boot', 'React', 'Tailwind CSS', 'Hibernate / JPA'],
+    },
+    {
+      category: 'AI & Prompt Engineering',
+      skills: 'LLM Integration, Prompt Engineering, Agentic Workflows',
+      items: ['LLM Integration', 'Prompt Engineering', 'Agentic Workflows'],
+    },
+    {
+      category: 'Databases & Tools',
+      skills: 'MySQL, Firebase Firestore, Git, GitHub, RESTful APIs',
+      items: ['MySQL', 'Firebase Firestore', 'Git', 'GitHub', 'RESTful APIs'],
+    },
+  ],
+  projects: [
+    {
+      title: 'KK Mobile Shop Portal & Repair Management',
+      tag: 'Web / Admin',
+      category: 'Web / Admin',
+      description: 'Engineered a complete mobile service portal for tracking customer repair status, managing repair inventory, and facilitating direct inquiry communications.',
+      url: 'https://github.com/gautamkumar07-lab/kk-mobile-shop',
+      link: 'https://github.com/gautamkumar07-lab/kk-mobile-shop',
+    },
+    {
+      title: 'Weather Forecast Web App with Dynamic Visualizer',
+      tag: 'JavaScript / REST',
+      category: 'JavaScript / REST',
+      description: 'Created a weather platform with real-time API connectivity, multi-day forecasting, interactive background conditions, and instant city search.',
+      url: 'https://github.com/gautamkumar07-lab/weather-app',
+      link: 'https://github.com/gautamkumar07-lab/weather-app',
+    },
+    {
+      title: 'SparkFlow - Student Record Management System',
+      tag: 'Database / System',
+      category: 'Database / System',
+      description: 'Designed a scalable student record management architecture with optimized indexing, CRUD records, grade calculation, and fast query execution.',
+      url: 'https://github.com/gautamkumar07-lab/-SparkFlow-Student-Record-Management-System',
+      link: 'https://github.com/gautamkumar07-lab/-SparkFlow-Student-Record-Management-System',
+    },
+  ],
+};
